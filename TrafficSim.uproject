@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.17",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "TrafficSim",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "CoreUObject",
+        "UMG",
+        "Engine"
+      ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PhysXVehicles",
+			"Enabled": true
+		},
+		{
+			"Name": "RawInput",
+			"Enabled": true
+		},
+		{
+			"Name": "LeapMotion",
+			"Enabled": true
+		}
+	]
+}
